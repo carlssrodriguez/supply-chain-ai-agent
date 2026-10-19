@@ -1,0 +1,55 @@
+[
+  {
+    "id": "critical-safety-stock",
+    "question": "What is the minimum safety stock for critical products?",
+    "evidence_contains": "Greater of 10 days of average demand or 100 units"
+  },
+  {
+    "id": "standard-safety-stock",
+    "question": "How much safety stock is required for standard products?",
+    "evidence_contains": "Standard 7 days of average demand"
+  },
+  {
+    "id": "reorder-point-formula",
+    "question": "How is the reorder point calculated?",
+    "evidence_contains": "Reorder point = (average daily demand x supplier lead time in days) + safety stock"
+  },
+  {
+    "id": "inventory-position",
+    "question": "What does inventory position include?",
+    "evidence_contains": "on-hand stock plus confirmed inbound quantity minus allocated customer demand"
+  },
+  {
+    "id": "high-risk-definition",
+    "question": "When is a critical item classified as high risk?",
+    "evidence_contains": "fewer days of cover than the fastest approved supplier lead time"
+  },
+  {
+    "id": "approval-20000",
+    "question": "Who must approve a purchase order worth EUR 20,000?",
+    "evidence_contains": "EUR 10,000.01 to EUR 50,000 Director of Supply Chain"
+  },
+  {
+    "id": "stale-inventory",
+    "question": "When is an inventory snapshot considered stale?",
+    "evidence_contains": "Inventory snapshots older than 24 hours"
+  },
+  {
+    "id": "split-orders",
+    "question": "Can a purchase requirement be split to avoid an approval threshold?",
+    "evidence_contains": "Splitting one requirement into multiple orders to avoid an approval threshold is prohibited"
+  },
+  {
+    "id": "contradictory-evidence",
+    "question": "What should the assistant do when required evidence is contradictory?",
+    "evidence_contains": "it must ask for human review rather than presenting a definitive recommendation"
+  },
+  {
+    "id": "policy-owner",
+    "question": "Who owns the inventory policy?",
+    "evidence_contains_any": [
+      "Policy owner Director of Supply Chain",
+      "Supply Chain Director: owns this policy"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+product_id,product_name,category,service_class,on_hand_units,allocated_units,average_daily_demand,safety_stock_units,unit_cost_eur,review_cycle_days,inventory_snapshot_date
+SKU-101,Industrial Sensor Module,Electronics,critical,500,50,20,200,18.5,7,2026-02-10
+SKU-102,Precision Control Valve,Mechanical,critical,120,20,25,250,31.2,7,2026-02-10
+SKU-103,Assembly Fastener Kit,Hardware,standard,900,100,60,420,2.4,14,2026-02-10
+SKU-104,Lithium Battery Pack,Electronics,critical,120,0,25,250,8.1,7,2026-02-10
+SKU-105,Protective Packaging Set,Packaging,non-critical,600,100,50,150,1.65,30,2026-02-10

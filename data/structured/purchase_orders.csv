@@ -1,0 +1,6 @@
+purchase_order_id,product_id,supplier_id,quantity,order_date,expected_delivery_date,status,unit_price_eur
+PO-2026-001,SKU-101,SUP-003,300,2026-02-05,2026-02-11,in_transit,19.1
+PO-2026-002,SKU-102,SUP-005,300,2026-02-06,2026-02-14,confirmed,33
+PO-2026-003,SKU-103,SUP-006,1000,2026-02-04,2026-02-09,received,2.4
+PO-2026-004,SKU-105,SUP-007,400,2026-02-08,2026-02-12,in_transit,1.65
+PO-2025-098,SKU-104,SUP-001,200,2025-12-10,2025-12-22,received,8.1

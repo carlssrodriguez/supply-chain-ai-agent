@@ -16,7 +16,7 @@ class LLMProviderError(Exception):
     """Raised when the external LLM provider cannot complete a request."""
 
 
-def generate_answer(user_message: str) -> str:
+def generate_answer(user_message: str, *, system_prompt: str = SYSTEM_PROMPT) -> str:
     """Send a user message to the configured LLM and return its text response."""
     load_dotenv()
 
@@ -33,7 +33,7 @@ def generate_answer(user_message: str) -> str:
         response = client.chat.completions.create(
             model=model,
             messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_message},
             ],
             temperature=0,

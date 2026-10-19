@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+.env
+.cache
+__pycache__
+*.pyc
+*.egg-info
+data/vector_store
+data/*.db
+outputs
+tmp
+work
+tests

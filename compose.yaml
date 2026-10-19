@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    environment:
+      APPROVAL_DATABASE_PATH: /app/runtime/approvals.db
+    ports:
+      - "8001:8000"
+    volumes:
+      - approval-data:/app/runtime
+
+volumes:
+  approval-data:
